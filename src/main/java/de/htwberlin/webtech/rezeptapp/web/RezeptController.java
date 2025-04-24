@@ -18,13 +18,13 @@ public class RezeptController {
 
     @GetMapping(path = "/rezepte")
     public String showRezepte(Model model) {
-        // Beispielhafte Rezeptliste (später aus DB)
+
         List<Rezept> rezeptListe = Arrays.asList(
                 new Rezept("Pizza", "Teig, Tomaten, Käse", "Backen", 2),
                 new Rezept("Spaghetti", "Nudeln, Sauce", "Kochen", 3)
+
         );
 
-        // Füge die Liste ins Model ein, damit sie im HTML genutzt werden kann
         model.addAttribute("rezepte", rezeptListe);
 
         return "rezepte";

@@ -7,6 +7,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 
+//Entity Klasse für Rezepte
+
 public class Rezept {
     private String name;
     private String zutaten;
