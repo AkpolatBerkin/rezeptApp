@@ -1,4 +1,7 @@
-# Meal-Mate
+[![CI](https://github.com/AkpolatBerkin/rezeptApp/actions/workflows/tests.yml/badge.svg)](https://github.com/AkpolatBerkin/rezeptApp/actions/workflows/tests.yml)
+
+
+#Meal-Mate
 
 //Test Push 
 Unsere Anwendung hilft Nutzerinnen dabei, ihre täglichen Mahlzeiten zu planen. Sie können Rezepte hinzufügen, auswählen,
